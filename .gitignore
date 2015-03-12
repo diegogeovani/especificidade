@@ -16,6 +16,10 @@ gen/
 .gradle/
 build/
 
+# IntelliJ files
+/.idea/workspace.xml
+/.idea/libraries
+
 # Local configuration file (sdk path, etc)
 local.properties
 
@@ -24,3 +28,8 @@ proguard/
 
 # Log Files
 *.log
+
+# Vim files
+*.swp
+
+.DS_Store
