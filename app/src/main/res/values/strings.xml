@@ -1,8 +1,10 @@
 <resources>
 
     <string name="app_name">Especificidade</string>
-
     <string name="hello_world">Hello world!</string>
+
     <string name="action_settings">Configurações</string>
+    <string name="normal">Normal</string>
+    <string name="x1">x1</string>
 
 </resources>
