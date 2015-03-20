@@ -26,7 +26,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/text_main_hello"
             android:layout_centerHorizontal="true"
-            android:text="@string/normal" />
+            android:text="@string/beginner" />
 
         <Button
             android:id="@+id/button_main_multiplayer"
