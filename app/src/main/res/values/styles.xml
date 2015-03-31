@@ -1,3 +1,5 @@
 <resources>
 
+    <style name="text_appearance_giant" parent="TextAppearance.AppCompat.Large"></style>
+
 </resources>
