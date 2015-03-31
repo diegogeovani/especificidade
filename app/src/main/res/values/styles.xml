@@ -1,5 +1,7 @@
 <resources>
 
-    <style name="text_appearance_giant" parent="TextAppearance.AppCompat.Large"></style>
+    <style name="text_appearance_giant" parent="TextAppearance.AppCompat.Large">
+        <item name="android:textSize">32sp</item>
+    </style>
 
 </resources>

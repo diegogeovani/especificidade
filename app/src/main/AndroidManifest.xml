@@ -9,11 +9,11 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".component.activities.MainActivity"
+            android:name=".component.activity.MainActivity"
             android:label="@string/app_name"></activity>
 
         <activity
-            android:name=".component.activities.LoadingActivity"
+            android:name=".component.activity.LoadingActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
