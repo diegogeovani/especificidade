@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
-    <string name="lorem_ipsum_small">ipsum</string>
+    <string name="lorem_ipsum_small" tools:ignore="UnusedResources">ipsum</string>
     <string name="lorem_ipsum">Lorem ipsum</string>
-    <string name="lorem_ipsum_medium_less">
+    <string name="lorem_ipsum_medium_less" tools:ignore="UnusedResources">
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit
     </string>
-    <string name="lorem_ipsum_medium">
+    <string name="lorem_ipsum_medium" tools:ignore="UnusedResources">
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
     </string>
-    <string name="lorem_ipsum_large">
+    <string name="lorem_ipsum_large" tools:ignore="UnusedResources">
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
         Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
     </string>
-    <string name="lorem_ipsum_large_extra">
+    <string name="lorem_ipsum_large_extra" tools:ignore="UnusedResources">
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
         Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
