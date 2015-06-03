@@ -18,10 +18,12 @@ public class LoadingActivity extends ActionBarActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loading);
 
-        this.startSinglePlayerTask(3000);
+        this.displayMainScreen();
+        finish();
+        //this.startSinglePlayerTask(3000);
     }
 
-    @SuppressWarnings("SameParameterValue")
+    @SuppressWarnings("unused")
     private void startSinglePlayerTask(int delay) {
         final SinglePlayerDatabaseCheckTask singlePlayerTask =
                 new SinglePlayerDatabaseCheckTask(this);

@@ -11,21 +11,21 @@ import android.view.View;
 public final class NonMultiTappingOnClickListener implements View.OnClickListener {
 
     private long lastClickTime;
-    private final OnClickResponse onClickResponse;
+    private final OnClickListener onClickListener;
     private static final int SECOND = 1000;
 
     /**
-     * @param onClickResponse Implementation of the click event itselft.
+     * @param onClickListener Implementation of the click event itselft.
      */
-    public NonMultiTappingOnClickListener(OnClickResponse onClickResponse) {
-        this.onClickResponse = onClickResponse;
+    public NonMultiTappingOnClickListener(OnClickListener onClickListener) {
+        this.onClickListener = onClickListener;
     }
 
     @Override
     public void onClick(View v) {
         if (!this.isClickIntervalLessThanOneSecond()) {
             this.lastClickTime = SystemClock.elapsedRealtime();
-            this.onClickResponse.onClick(v);
+            this.onClickListener.onClick(v);
         }
     }
 
@@ -35,11 +35,11 @@ public final class NonMultiTappingOnClickListener implements View.OnClickListene
 
     /**
      * Handles the click event.
-     * */
-    public interface OnClickResponse {
+     */
+    public interface OnClickListener {
         /**
          * It should be something like a switch statement around the view's id.
-         * */
+         */
         void onClick(View view);
     }
 

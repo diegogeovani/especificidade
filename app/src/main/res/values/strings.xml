@@ -8,4 +8,6 @@
     <string name="beginner">Iniciante</string>
     <string name="x1">x1</string>
 
+    <string name="title_activity_game">GameActivity</string>
+
 </resources>

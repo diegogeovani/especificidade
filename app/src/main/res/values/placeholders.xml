@@ -2,7 +2,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
     <string name="lorem_ipsum_small" tools:ignore="UnusedResources">ipsum</string>
-    <string name="lorem_ipsum">Lorem ipsum</string>
+    <string name="lorem_ipsum" tools:ignore="UnusedResources">Lorem ipsum</string>
     <string name="lorem_ipsum_medium_less" tools:ignore="UnusedResources">
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit
     </string>
