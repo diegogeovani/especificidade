@@ -1,4 +1,4 @@
-package br.com.dgas.especificidade.component.activity;
+package br.com.dgas.especificidade.ui.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
