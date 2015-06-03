@@ -17,8 +17,12 @@ gen/
 build/
 
 # IntelliJ files
-/.idea/workspace.xml
-/.idea/libraries
+*.iws
+.idea/datasources.xml
+.idea/dataSources.ids
+.idea/libraries
+.idea/tasks.xml
+.idea/workspace.xml
 
 # Local configuration file (sdk path, etc)
 local.properties
