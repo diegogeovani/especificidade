@@ -1,13 +1,13 @@
 package br.com.dgas.especificidade.ui.activity;
 
+import android.app.Activity;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
 import br.com.dgas.especificidade.R;
 
-public class GameActivity extends ActionBarActivity {
+public class GameActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

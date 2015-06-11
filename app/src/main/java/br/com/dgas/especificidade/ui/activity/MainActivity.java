@@ -8,7 +8,6 @@ import android.view.MenuItem;
 import android.view.View;
 
 import br.com.dgas.especificidade.R;
-import br.com.dgas.especificidade.ui.activity.GameActivity;
 import br.com.dgas.especificidade.ui.listener.NonMultiTappingOnClickListener;
 
 /**
