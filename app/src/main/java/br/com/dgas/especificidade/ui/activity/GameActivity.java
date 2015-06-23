@@ -4,15 +4,34 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
 
 import br.com.dgas.especificidade.R;
+import br.com.dgas.especificidade.util.CountDown;
 
-public class GameActivity extends Activity {
+public class GameActivity extends Activity implements CountDown.CountDownListener {
+
+    private CountDown countDown;
+    private TextView countDownView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game);
+        this.countDown = new CountDown(this);
+        this.countDownView = (TextView) findViewById(R.id.text_game_count_down);
+        this.updateCountDownText(countDown.getTimeRemaining());
+    }
+
+    private void updateCountDownText(int secondsRemaining) {
+        countDownView.setText(getString(R.string.the_game_will_begin_in, secondsRemaining));
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        countDown.start();
     }
 
     @Override
@@ -35,6 +54,16 @@ public class GameActivity extends Activity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onTick() {
+        this.updateCountDownText(countDown.getTimeRemaining());
+    }
+
+    @Override
+    public void onCountDownFinished() {
+        findViewById(R.id.viewgroup_game_count_down).setVisibility(View.INVISIBLE);
     }
 
 }

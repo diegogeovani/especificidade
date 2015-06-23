@@ -8,6 +8,8 @@
     <string name="beginner">Iniciante</string>
     <string name="x1">x1</string>
 
+    <!-- Game -->
+    <string name="the_game_will_begin_in">O jogo vai começar em %1$ss.</string>
     <string name="title_activity_game">GameActivity</string>
 
 </resources>
